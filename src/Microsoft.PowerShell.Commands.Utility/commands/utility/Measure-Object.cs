@@ -206,7 +206,7 @@ namespace Microsoft.PowerShell.Commands
             internal int count = 0;
 
             // Generic/Numeric statistics
-            internal double sum = 0.0;
+            internal decimal sum = 0.0;
             internal double sumPrevious = 0.0;
             internal double variance = 0.0;
             internal object max = null;
